@@ -40,7 +40,7 @@ body {
 }
 
 .character {
-	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWIwZ3dsamQ4NXRtbXh6a3N5dWY3eHN5aTMydG1nYTdjMzJseWh0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f4yYA5kVR8NDJXAdWg/giphy.gif') no-repeat;
+	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWIwZ3dsamQ4NXRtbXh6a3N5dWY3eHN5aTMydG1nYTdjMzJseWh0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f4yYA5kVR8NDJXAdWg/giphy.gif') repeat;
 	background-size: contain;
 	width: 64px;
 	height: 64px;
