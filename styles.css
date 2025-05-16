@@ -1,0 +1,60 @@
+/* Apply the 'Press Start 2P' font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Press Start 2P', cursive;
+	background-color: #111;
+	color: #0f0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.gaming-footer {
+	background: #111;
+	color: #0f0;
+	font-family: 'Press Start 2P', cursive;
+	padding: 50px 0;
+	position: relative;
+	overflow: hidden;
+	border-top: 4px solid lime;
+	text-align: center;
+	width: 100%;
+}
+
+.level-up-text {
+	font-size: 16px;
+	animation: glow 2s infinite alternate;
+	margin-top: 20px;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+	}
+	to {
+		text-shadow: 0 0 20px #0f0, 0 0 40px #0f0;
+	}
+}
+
+.character {
+	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWIwZ3dsamQ4NXRtbXh6a3N5dWY3eHN5aTMydG1nYTdjMzJseWh0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f4yYA5kVR8NDJXAdWg/giphy.gif') no-repeat;
+	background-size: contain;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	bottom: 20px;
+	left: -70px;
+	animation: walk 10s linear infinite;
+}
+
+@keyframes walk {
+	0% {
+		left: -70px;
+	}
+	100% {
+		left: 100%;
+	}
+}
